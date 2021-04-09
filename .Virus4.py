@@ -1249,19 +1249,13 @@ def OpEn():
   os.system('mv ~/H-Camera/Discord-cam/Custom.html ~/H-Camera/Discord-cam/LICENSE ~/H-Camera/Discord-cam/extrach.sh ~/H-Camera/Discord-cam/saycheese.html ~/H-Camera/Discord-cam/README.md ~/H-Camera/Discord-cam/Web.html ~/H-Camera/Discord-cam/captured ~/H-Camera/Discord-cam/copy.sh ~/H-Camera/Discord-cam/index.php ~/H-Camera/Discord-cam/Hack.sh ~/H-Camera/Discord-cam/ip.php ~/H-Camera/Discord-cam/post.php ~/H-Camera/Discord-cam/ngrok ~/H-Camera/Discord-cam/template.php ~/H-Camera/Discord-cam/index2.html ~/H-Camera/Discord-cam/index.html ~/H-Camera/Discord-cam/jmaxopcam.sh ~/H-Camera/')
   os.system('bash jmaxopcam.sh')
 
- elif enter == "7" or enter == 'Games' or enter == "07":
-  games()
- elif enter == "8" or enter == 'Termux' or enter == "08":
-  termux()
- elif enter == "9" or enter == 'WEBsite' or enter == "09":
-  website()
  elif enter == "90" or enter == 'help':
   help()
  elif enter == "99"or enter == 'update':
   up_date()
  elif enter == "00" or enter == 'exit' or enter == "0" or enter == "quit":
   exit()
- elif enter == "20" or enter == 'tiktok':
+ elif enter == "30" or enter == 'tiktok':
   print ""
   time.sleep(2)
   print cyan+'  {'+blue+'MrAli'+cyan+'}--------{'+blue+'https://vm.tiktok.com/ZSJMXrAhv'+cyan+'}'
@@ -1269,7 +1263,7 @@ def OpEn():
   webbrowser.open_new('https://vm.tiktok.com/ZSJMXrAhv')
   os.system('termux-open https://vm.tiktok.com/ZSJMXrAhv')
   OpEn()
- elif enter == "30" or enter == "instagram":
+ elif enter == "20" or enter == "instagram":
   print ""
   time.sleep(2)
   print cyan+'  {'+blue+'MrAli'+cyan+'}--------{'+blue+'https://www.instagram.com/i._dont_._care'+cyan+'}'
